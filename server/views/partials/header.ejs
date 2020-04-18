@@ -1,0 +1,58 @@
+<header id="mainHeader">
+  <!-- Main Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <i class=D:\Winter2020\WEBD6201\WEBD6201-W2020-Lesson11-master\server\views\partials\Image\LogoMakr_0PskoL.png>
+      <a class="navbar-brand" href="#">WEBD6201</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        <% if(title == 'Home') { %>
+          <li id="home" class="nav-item active">
+        <% } else { %>
+          <li id="home" class="nav-item">
+        <% } %>
+        <a class="nav-link" href="/home"><i class="fas fa-igloo"></i> Home</a></li>
+          
+
+         <% if(title == 'Products') { %>
+          <li id="products" class="nav-item active">
+          <% } else { %>
+           <li id="products" class="nav-item">
+         <% } %>
+         <a class="nav-link" href="/products"><i class="fas fa-map"></i> Products</a></li>
+          
+         <% if(title == 'Services') { %>
+          <li id="services" class="nav-item active">
+         <% } else { %>
+          <li id="services" class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/services"><i class="fas fa-concierge-bell"></i> Services</a></li>
+          
+
+          <% if(title == 'About') { %>
+          <li id="about" class="nav-item active">
+          <% } else { %>
+          <li id="about" class="nav-item">
+          <% } %>
+          <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About Us</a></li>
+
+          <% if(title == 'Contact') { %>
+          <li id="contact" class="nav-item active">
+          <% } else { %>
+          <li id="contact" class="nav-item">
+          <% } %>
+          <a class="nav-link" href="/contact"><i class="fas fa-mobile-alt"></i> Contact Us</a></li>
+          
+          <% if(title == 'Login') { %>
+          <li id="login" class="nav-item active">
+          <% } else { %>
+          <li id="login" class="nav-item">
+          <% } %>
+          <a class="nav-link" href="/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+       
+        </div>
+    </nav>
+</header>

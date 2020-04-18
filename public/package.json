@@ -1,0 +1,11 @@
+{
+  "name": "webd6201-w2020-lesson10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "contactList":
+    [
+        {
+            "Name":"Tom Tsiliopoulos",
+            "ContactNumber":"416-555-5555",
+            "EmailAddress":"tom@example.com"
+        },
+        {
+            "Name":"Luke Skywalker",
+            "ContactNumber":"416-555-5556",
+            "EmailAddress":"luke@example.com"
+        },
+        {
+            "Name":"Tony Stark",
+            "ContactNumber":"416-555-5557",
+            "EmailAddress":"tony@example.com"
+        }
+    ]
+}
