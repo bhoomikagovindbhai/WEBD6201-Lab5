@@ -9,9 +9,9 @@
             <table class="table table-bordered table-striped table-hover">
                 <!-- Header Row -->
                 <tr>
-                    <th class="text-center">First Name</th>
-                    <th class="text-center">Last Name</th>
-                    <th class="text-center">Contact Number</th>
+                    <th class="text-center">user Name</th>
+                    <th class="text-center">Password</th>
+                    <th class="text-center">Email Address</th>
                     <th class="text-center"></th>
                     <th class="text-center"></th>
                 </tr>
@@ -19,9 +19,9 @@
                 <!-- Repeatable Template Row -->
                 <% for(let count = 0; count < contactList.length; count++) { %>
                 <tr>
-                    <td class="text-center"><%= contactList[count].firstName %></td>
-                    <td class="text-center"><%= contactList[count].lastName %></td>
-                    <td class="text-center"><%= contactList[count].contactNumber %></td>
+                    <td class="text-center"><%= contactList[count].userName %></td>
+                    <td class="text-center"><%= contactList[count].password%></td>
+                    <td class="text-center"><%= contactList[count].emailAddress %></td>
                     <td class="text-center"></td>
                     <td class="text-center">
                         <a href="/contact-list/delete/<%= contactList[count]._id %>"
